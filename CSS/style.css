@@ -559,7 +559,7 @@ section {
     /* transform: translateX(50%); */
 }
 .women {
-    background-image:linear-gradient(rgba(43,43,43, 0.5), rgba(43,43,43, 0.5)), url(/womeens1.avif);
+    background-image:linear-gradient(rgba(43,43,43, 0.5), rgba(43,43,43, 0.5)), url(./womeens1.avif);
     transition: transform 0.5s;
     background-repeat: no-repeat;
     background-size: cover;
@@ -574,7 +574,7 @@ section {
     transform: translateY(-5px);
 }
 .men {
-    background-image:linear-gradient(rgba(43,43,43, 0.5), rgba(43,43,43, 0.5)), url(/meeens.avif) ;
+    background-image:linear-gradient(rgba(43,43,43, 0.5), rgba(43,43,43, 0.5)), url(./meeens.avif) ;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
