@@ -1,12 +1,12 @@
 /*
     SPACING SYSTEM (px)
     2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-    
+
     FONT SIZE SYSTEM (px)
     10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
 /* color:
-    primare: #2b2d42  
+    primare: #2b2d42
     sekondare: #d90429
     #ef233c
 
@@ -17,6 +17,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.head-header {
+    background-color: #F6E7D8;
+    height: 2.4rem;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.contact-no p {
+    color: black;
+    padding-right: 70px;
 }
 .navbar {
     display: flex;
@@ -35,10 +48,10 @@
 }
 .logo h1 {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 400;
 }
-nav {  
-    text-transform: uppercase;
+nav {
+    /* text-transform: uppercase; */
     flex: 1;
     text-align: right;
 }
@@ -47,7 +60,7 @@ nav ul {
     list-style-type: none;
 }
 nav ul li {
-    
+
     display: inline-block;
     margin-right: 20px;
     font-size: 20px;
@@ -55,15 +68,17 @@ nav ul li {
 
 nav ul li a:hover,
 nav ul li a:active {
-    color: #d90429;
+    color: #874356;
+    border-bottom: 3px solid #874356;
+    transition: 0.3s;
 }
 
 span{
-    color: #d90429;
+    color: #874356;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 p {
     color: #212529;
@@ -112,7 +127,7 @@ button{
     color: white;
     padding: 30px 30px;
     cursor: pointer;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transition: 0.3s;
     font-size: 20px;
 }
@@ -122,46 +137,54 @@ button:hover {
 }
 .btn {
     display: inline-block;
-    background-color: #d90429;
+    background-color: #874356;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
     /* border-radius: 30px; */
 }
 .btn:hover {
-    background: #ef233c
+    background: white;
+    color: #874356;
+    border: 2px solid #874356;
 }
 
 .btn-login {
     margin-left: 10px;
-    background-color: #2b2d42;
-    border: 2px solid white;
+    background-color: white;
+    color: #80BDAB;
+    border: 2px solid #80BDAB;
     padding: 6px 30px;
 }
 .btn-login:hover {
-    background-color: #2b2d42;
-    border: 2px solid white;
+    background-color: #80BDAB;
+    color: white;
     padding: 6px 30px;
-    background-color: #31334b;
+    border: 2px solid #80BDAB;
 }
 .header {
     /* height: 100vh; */
-    background-color: #2b2d42;
+    /* background-color: #2b2d42; */
+}
+.header .navbar {
+    border-bottom: 1px solid #F6E7D8;
 }
 
 .hero-img {
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
+
 header h1{
-    color: white;
+    color: black;
 }
 .header .row {
-    margin-top: 70px;
+    /* margin-top: 70px; */
 }
 svg {
     width: 20px;
-    height: 20px; 
+    height: 20px;
 }
 
 .categories {
@@ -178,7 +201,7 @@ svg {
 
 .rating{
     border: none;
-    color: #d90429;
+    color: #F6E7D8;
     cursor: pointer;
 }
 .small-container {
@@ -214,7 +237,7 @@ svg {
 }
 .title::after {
     content: '';
-    background: #d90429;
+    background: #874356;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -243,7 +266,7 @@ h4 {
 
 .offer {
     /* background: radial-gradient(#fff,#ffd6d6); */
-    background-color: #e9e9f5;
+    background-color: #F6E7D8;
     margin-top: 80px;
     padding: 30px 0;
 }
@@ -254,7 +277,7 @@ h4 {
 }
 .col-2 .offer-img {
     padding: 50px;
-    
+
 }
 small {
     color: #212529;
@@ -321,20 +344,23 @@ small {
 /* footer */
 
 .footer {
-    background: #2b2d42;
-    color: white;
+    background: #F6E7D8;
+    
+    color: black;
     font-size: 14px;
     padding: 60px 0 20px;
 }
 
 .footer p {
     font-size: 16px;
-    color: white;
+    color: black;
 }
 
 .footer h3 {
-    font-size: 20px;
-    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+
     margin-bottom: 20px;
 }
 .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
@@ -369,14 +395,14 @@ ul{
 }
 .footer hr{
     border: none;
-    background-color: #b5b5bb;
+    background-color: #874356;
     height: 1px;
     margin: 20px 0;
 }
 footer li:hover,
 footer li a:hover {
     cursor: pointer;
-    color: #d90429;
+    color: #874356;
 }
 
 .copyright {
@@ -386,7 +412,7 @@ footer li a:hover {
 }
 
 .menu-icon {
-    color: white; 
+    color: white;
     width: 28px;
     margin-bottom: 7px;
     margin-left: 20px;
@@ -425,6 +451,7 @@ footer li a:hover {
 
 /* media query for less than 600 screen size  */
 @media only screen and (max-width:600px){
+    /* sas */
     .row{
         text-align: center;
     }
@@ -458,13 +485,14 @@ footer li a:hover {
 
 }
 .icon{
-    stroke: white;
+    stroke: black;
     cursor: pointer;
     /* padding: 5px; */
 }
-.icon:hover, 
+.icon:hover,
 .icon:active {
     stroke: #d90429;
+    border-bottom: 3px solid #d90429;
 }
 .no{
     height: 48px;
@@ -520,7 +548,7 @@ footer li a:hover {
   }
 
 
-  
+
 section {
     margin-top: 100px;
 }
@@ -547,15 +575,17 @@ section {
     grid-column: 1/3;
 
 }
-.categ .women h1{
+.categ .women h1,
+.categ .men h1 {
     font-weight: 500;
     padding: 200px;
+    color: white;
 
 }
 .categ .men h1{
-    font-weight: 500; 
+    font-weight: 500;
     padding: 200px;
-    
+
     /* transform: translateX(50%); */
 }
 .women {
@@ -567,7 +597,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .women:hover {
@@ -580,11 +610,11 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .men:hover {
-    
+
     transform: translateY(-5px);
 }
 
@@ -676,7 +706,7 @@ section .about-us {
     background-color: pink;
     align-self: center;
     justify-self: center;
-    
+
 }
 
 
@@ -685,11 +715,16 @@ section .about-us {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image:linear-gradient(rgba(43,43,43, 0.5), rgba(43,43,43, 0.5)), url(/clothing_women/Buttoned\ blazer3.jpg);
+    transition: transform 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
 }
 .login-form {
-    box-shadow: 0px 0px 1px #050401a8;
+    box-shadow: 0px 0px 1px #f0ead2;
     min-width: 800px;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     padding: 50px;
     gap: 20px;
 }
@@ -741,7 +776,7 @@ section .about-us {
     padding-bottom: 60%;
     background-color: #fdf2e9;
     z-index: -2;
-    
+
 }
 .login-form::after {
     content: "";
@@ -751,7 +786,7 @@ section .about-us {
     left: 800%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    
+
 }
 
 
@@ -845,6 +880,112 @@ section.new-arrivals {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footer {
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+}
+
+.grid--footer {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 3.2rem;
+}
+footer .logo {
+    height: 2.2rem;
+}
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+}
+.footer-link:link, .footer-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #767676;
+    transition: all 0.3s;
+}
+.copyright {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #767676;
+    margin-top: auto;
+}
+.footer-heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+.contacts {
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+.address {
+    margin-bottom: 2.4rem;
+    color: #969696;
+}
+.footer-link:link, .footer-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #767676;
+    transition: all 0.3s;
+}
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.social-links ion-icon {
+    color: #767676;
+} */
 
 
 
