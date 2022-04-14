@@ -45,6 +45,9 @@
         margin-left: 0px;
         margin-bottom: 0px;
     }
+    .title {
+        text-align: center;
+    }
 }
 /* media query for less than 600 screen size  */
 @media (max-width:600px){
