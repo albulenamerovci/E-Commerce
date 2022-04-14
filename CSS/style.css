@@ -141,6 +141,7 @@ button:hover {
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
+    border: 2px solid #874356;
     /* border-radius: 30px; */
 }
 .btn:hover {
@@ -154,12 +155,12 @@ button:hover {
     background-color: white;
     color: #80BDAB;
     border: 2px solid #80BDAB;
-    padding: 6px 30px;
+    padding: 8px 30px;
 }
 .btn-login:hover {
     background-color: #80BDAB;
     color: white;
-    padding: 6px 30px;
+    padding: 8px 30px;
     border: 2px solid #80BDAB;
 }
 .header {
@@ -422,43 +423,7 @@ footer li a:hover {
 }
 
 
-/* media query for menu */
-@media only screen and (max-width:800px){
-    nav ul {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background: #2b2d42 ;
-        width: 100%;
-        overflow: hidden;
-        transition: max-height 0.5s;
-    }
-    nav ul li {
-        display: block;
-        margin-right: 50px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    nav ul li a {
-        color: white;
 
-    }
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-}
-
-/* media query for less than 600 screen size  */
-@media only screen and (max-width:600px){
-    /* sas */
-    .row{
-        text-align: center;
-    }
-    .col-2, .col-3, .col-4{
-        flex-basis: 100%;
-    }
-}
 
 
 #new .one img {
@@ -986,6 +951,62 @@ footer .logo {
 .social-links ion-icon {
     color: #767676;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
